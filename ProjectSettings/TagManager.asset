@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - enemy
+  - bullet
+  - player
+  - ball
+  - rectangle
+  - bulletenemy
+  - barrel
+  - vehicule
+  - harmEnemyPlayer
+  - feet
+  - deathScreen
+  - damageScreen
+  - BulletOut
+  - MuzzleOut
+  - zombie
+  - zombie2
+  - box
+  - heart
+  - gunAmmo
+  - rifleAmmo
+  - wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - pause
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: vehicules
+    uniqueID: 3509688293
+    locked: 0
+  - name: q
+    uniqueID: 1360319459
+    locked: 0
