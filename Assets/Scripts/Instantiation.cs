@@ -15,7 +15,7 @@ public class Instantiation : MonoBehaviour {
 	public GameObject gameOverScreen,youWinScreen,waveOneScreen;
 
 	private  static int score=0;
-	private  static int enemyLeft=2;
+	private  static int enemyLeft=10;
 	bool didWin =false,wave2=false;
 
 
@@ -24,9 +24,9 @@ public class Instantiation : MonoBehaviour {
 		wave2 = false;
 		didWin =false;
 		score = 0;
-		enemyLeft = 2;
+		enemyLeft = 10;
 		
-		for (int i = 0; i < 20; i++) {
+		for (int i = 1; i < 10; i++) {
 			int x = Random.Range (-200, 47);
 			int y = Random.Range (-45, 47);
 			//int o = Random.Range (0, 2);
@@ -68,12 +68,12 @@ public class Instantiation : MonoBehaviour {
 			Invoke ("StopYouWin", 4f);
 			didWin = true;
 			myTime = 90f;
-			enemyLeft = 60;
+			enemyLeft = 30;
 		}
 		if ((didWin)&&(wave2==false)) {
 			wave2 = true;
 
-			for (int i = 0; i < 60; i++) {
+			for (int i = 1; i < 30; i++) {
 				int x = Random.Range (-200, 47);
 				int y = Random.Range (-45, 47);
 				//int o = Random.Range (0, 2);
